@@ -5,6 +5,8 @@
 #include <string.h>
 #include "voidQueue.h"
 
+/*Kathleen Malone */
+
 Queue* queue;
 pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
 /*These are the condition variables that the boss and  workers wait on */
